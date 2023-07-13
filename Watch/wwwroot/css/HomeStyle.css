@@ -1,0 +1,499 @@
+﻿
+
+#scrolling-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed; /* адаптивна позиція */
+    left: 0;
+    top: 0;
+    z-index: -2; /* опціонально: для забезпечення відображення зображення за іншими елементами */
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: background-color 0.5s ease;
+    z-index: -1;
+}
+
+.background_black {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(29, 27, 27);
+    z-index: 3;
+}
+
+.background_white {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #f5f5f7;
+    z-index: 4;
+}
+
+.background_white2 {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 490vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #f5f5f7;
+    z-index: 4;
+}
+
+.background_black2 {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(29, 27, 27);
+    z-index: 5;
+}
+
+.background_image_2 {
+    content: "";
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    height: 120vh;
+    background-position: center;
+    background-image: url('/images/watch_photo7.png');
+    background-repeat: no-repeat;
+    /* background-size: cover;*/
+    z-index: 7;
+}
+
+.block_black {
+    position: absolute;
+    background-color: black;
+    width: 90%;
+    left: 5%;
+    border-radius: 50px;
+    text-align:left;
+}
+
+
+.block_white {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    
+    border-radius: 50px;
+    text-align: left;
+}
+
+.block_white_2 {
+    position: relative;
+
+    border-radius: 50px;
+    text-align: left;
+}
+
+.block_white_short {
+    position: relative;
+    background-color: white;
+    left: 0%;
+    border-radius: 50px;
+    text-align: left;
+    
+}
+
+    .block_white_short img {
+        width: 130%;
+        margin-left: -20%;
+        bottom: 0;
+        margin-top: 5%;
+    }
+
+.block_black_short {
+    position: relative;
+    background-color: black;
+    color: white;
+    left: 0%;
+    border-radius: 50px;
+    text-align: left;
+}
+
+    .block_black_short img {
+        width: 100%;
+    }
+
+.blockWhiteImage1 {
+    border: 0px solid blue;
+    max-width: 200%;
+    margin-left: -50%;
+}
+
+.blockBlackImage1 {
+    width: 180%;
+    margin-left: -30%;
+}
+
+
+.background_image_3 {
+    background-image: url('/images/watch_photo9.jpg');
+    background-size: contain;
+    width: 120%;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.img_new {
+    width: 100%;
+    border-radius: 50px;
+}
+
+
+.col-2 {
+    max-width: 10%;
+}
+.block {
+    height: 3300px;
+}
+
+.right_column {
+ /* Забезпечує максимальну ширину зображення 100% від батьківського елемента */
+    padding-top: 40px;
+    width: auto;
+    height: 70vh; /* Забезпечує автоматичну висоту, щоб зберегти пропорції зображення */
+}
+
+
+.padd_text {
+    margin-top: 200px;
+    height: 200px;
+}
+
+.relat {
+    position: relative;
+}
+
+.img_size {
+    width: 100px;
+    
+}
+
+.marg-img {
+   margin-top: 10%;
+}
+
+.padd_desc {
+    margin-top: 250px;
+}
+
+.margin_ct {
+    margin-top: 350px;
+}
+
+
+
+.marg_top_sm {
+    margin-top: 70px;
+}
+
+.marg_top_mm {
+    margin-top: 20px;
+}
+
+
+.marg_top_big {
+    margin-top: 650px;
+}
+
+.marg_left {
+    margin-left: 10%;
+}
+
+.left-zero {
+    left:0%;
+}
+.padd_top {
+    padding-top: 250px;
+}
+
+
+.new_padd {
+    padding-top: 100px;
+}
+
+.marg_aft {
+    padding-bottom: 250px;
+    margin-bottom: 250px;
+}
+
+
+.text_bold {
+    font-weight: bold;
+}
+
+.white_text {
+    color: white;
+}
+
+.gray_text {
+    color: #7e7e7e
+}
+
+.text {
+    z-index: 3;
+}
+
+.clear-text {
+    clear: both;
+}
+
+
+.text-container {
+    position: relative;
+    height: 20px; /* Задайте висоту, яку ви бажаєте */
+}
+
+    .text-container h1 {
+        position: relative;
+        top: 0;
+        transition: top 0.5s;
+    }
+
+    .text-container img {
+        width: 50px;
+        height: auto;
+    }
+
+.text-outline {
+    -webkit-text-stroke: 1px white; /* Толщина и цвет обводки */
+}
+
+.hidden-container {
+    position: relative;
+    height: 100px; /* Задайте висоту, яку ви бажаєте */
+}
+
+    .hidden-container h5 {
+        display: none;
+    }
+
+
+.font_h5 {
+    font-size: 60px; /* Базовий розмір шрифту заголовків */
+}
+
+
+
+.image-button {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+    .image-button img {
+        width: 120px;
+        height: 180px;
+    }
+
+    .image-button input[type="radio"] {
+        display: none;
+    }
+
+
+.indicator-line {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    visibility: hidden;
+    transition: transform 0.3s;
+    transform: translateX(-100%);
+}
+
+.image-button input[type="radio"]:checked + .indicator-line {
+    visibility: visible;
+    transform: translateX(0%);
+}
+
+
+
+.circle {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100px 0 0 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 50%);
+    transform: scale(5) rotate(-90deg) translate(0%, -100%);
+    transform-origin: top right;
+    transition: background-color 0.5s ease;
+    z-index: 9;
+
+}
+
+.circle-watch {
+    /* Забезпечує максимальну ширину зображення 100% від батьківського елемента */
+    padding-top: 180px;
+    width: auto;
+    height: 700px; /* Забезпечує автоматичну висоту, щоб зберегти пропорції зображення */
+    position: absolute;
+    top: 30%;
+    left: 1100%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.5s ease;
+    z-index: 14;
+
+}
+
+.photo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.5s ease;
+}
+
+
+.text-block {
+    padding: 10px;
+    background-color: #f5f5f7;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    max-width: 400px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+    .text-block.show {
+        opacity: 1;
+    }
+
+
+.new_text_block {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+   
+    opacity: 0;
+    transition: opacity 0.5s;
+    text-align: left;
+}
+
+    .new_text_block.show {
+        opacity: 1;
+    }
+
+
+
+.top-left {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+}
+
+.lastDiv {
+    margin-top: 740vh;
+    position: relative;
+}
+
+.text-area {
+    max-width: auto;
+}
+
+.marg_top_sm {
+    width: 100%; /* Adjust the width as needed */
+    border: 0px solid blue;
+}
+
+    .image-container img {
+        max-width: 100%; /* Ensures the image doesn't exceed its container */
+        height: auto; /* Maintains the image's aspect ratio */
+    }
+
+/* Медіа-запит для зменшення розміру шрифту заголовків при уменшенні розміру вікна */
+@media (max-width: 768px) {
+    .font_h5 {
+        font-size: 24px; /* Розмір шрифту для менших розмірів вікна */
+    }
+    h1 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+    h5 {
+        font-size: 15px;
+    }
+    .text-area {
+        max-width: 200px;
+    }
+    .background_white {
+        max-height: 200px;
+    }
+
+    .background_white {
+        max-height: 500px;
+    }
+
+    .background_white2 {
+        height: 530vh;
+    }
+    .background_image_2 {
+        max-height: 500px;
+    }
+    .background_image_3 {
+        background-image: none;
+    }
+    .lastDiv {
+        margin-top: 860vh;
+    }
+    .circle {
+        display:none;
+    }
+
+    .circle-watch {
+        display: none;
+    }
+
+    .marg-img {
+        margin-top: 30%;
+    }
+
+}
+
+
+
+

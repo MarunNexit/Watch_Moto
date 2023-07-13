@@ -1,0 +1,16 @@
+﻿@model List<WatchModel> 
+<!-- Оголошення моделі представлення -->
+
+<h1>Список товарів:</h1>
+
+<div class="product-cards">
+    <!-- Використання моделі представлення -->
+    @foreach (var watch in Model) 
+    {
+        <div class="product-card">
+            <img src="@watch.ImagePath" alt="@watch.Name" />
+            <h3>@watch.Name</h3>
+            <p>@watch.Description</p>
+        </div>
+    }
+</div>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Watch", "Watch\Watch.csproj", "{A53A27AE-5813-4D4B-AD3E-42193435F0BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A53A27AE-5813-4D4B-AD3E-42193435F0BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53A27AE-5813-4D4B-AD3E-42193435F0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53A27AE-5813-4D4B-AD3E-42193435F0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53A27AE-5813-4D4B-AD3E-42193435F0BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {688777DC-B5D5-4D7B-8A20-3D0727B893AE}
+	EndGlobalSection
+EndGlobal
