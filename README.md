@@ -6,4 +6,4 @@
 
 
 # Watch_Moto
-The website was created for educational purposes using ASP.NET
+Moto 360 Gen3 wristwatch promotional website created for educational purposes using ASP.NET
