@@ -1,6 +1,6 @@
 # Hosting
 
-https://marunnexit-001-site1.btempurl.com/
+http://marunnexit-001-site1.btempurl.com/
 
 http://moto360watch.somee.com/
 
